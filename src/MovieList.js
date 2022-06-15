@@ -11,7 +11,9 @@ const MovieList = () => {
     <div>
       {movies.map((movie) => (
         <Movie name={movie.name} price={movie.price} key={movie.id} />
+        <Nav/>
       ))}
+
     </div>
   );
 };
