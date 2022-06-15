@@ -1,7 +1,11 @@
 import React from "react";
 
-const Movie = () => {
-  return <div></div>;
+const Movie = (props) => {
+  return (
+    <div>
+      <h3>{props.name}</h3>
+    </div>
+  );
 };
 
 export default Movie;
